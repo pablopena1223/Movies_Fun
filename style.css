@@ -1,0 +1,11 @@
+#heading{
+    text-align: center;
+    color:white;
+}
+
+div{
+  display: flex;
+  justify-content: space-around;
+
+}
+
