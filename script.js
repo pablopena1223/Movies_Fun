@@ -26,5 +26,12 @@ function updateUI(movieInfo){
         $('.full_movie_title').html(movieInfo.Title);
         $('.image').attr("src", movieInfo.Poster);
         $('.date').html(movieInfo.Year);
+        $('.genre').html(movieInfo.Genre);
+        $('.director').html(movieInfo.Director);
+        $('.writer').html(movieInfo.Writer);
+        $('.actors').html(movieInfo.Actors);
+        $('.plot').html(movieInfo.Plot);
+
 }
 });
+
